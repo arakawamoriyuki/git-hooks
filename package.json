@@ -1,0 +1,14 @@
+{
+  "name": "git-hooks",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test",
+      "pre-push": "yarn test"
+    }
+  }
+}
